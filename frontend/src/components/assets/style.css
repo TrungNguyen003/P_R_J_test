@@ -1,0 +1,50 @@
+/* style.css */
+
+/* CSS cho hình ảnh sản phẩm */
+.product-image {
+    width: 100px; /* Điều chỉnh kích thước của hình ảnh */
+    height: auto;
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi khi hover */
+  }
+  
+  /* Hiệu ứng hover */
+  .product-image:hover {
+    transform: scale(1.1); /* Phóng to hình ảnh lên 110% khi hover */
+  }
+  
+  /* Add this to your CSS file */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.product-image {
+  max-width: 100px;
+  height: auto;
+}
+
+.product-image {
+  max-width: 300px;
+  margin: 10px 0;
+}
+
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-image {
+  max-width: 100px;
+  margin: 5px;
+}
